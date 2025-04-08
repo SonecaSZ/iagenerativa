@@ -3,7 +3,7 @@ import requests
 
 st.set_page_config(page_title="Tradutor com IA", layout="centered")
 
-st.title("🌍 Tradutor com IA - MyMemory API")
+st.title("🌍 Tradutor com IA")
 
 texto = st.text_area("Digite o texto para traduzir:")
 idioma_origem = st.selectbox("Idioma de origem", ["pt", "en", "es", "fr", "it", "de"])
